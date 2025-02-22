@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crash Predictor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Prédiction Crash</h1>
+    
+    <label>Graine du Serveur :</label>
+    <input type="text" id="serverSeed" placeholder="Entrez la graine du serveur">
+
+    <label>Graine Publique :</label>
+    <input type="text" id="publicSeed" placeholder="Entrez la graine publique">
+
+    <button onclick="calculateMultiplier()">Prédire</button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
